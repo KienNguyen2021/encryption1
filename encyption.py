@@ -4,7 +4,7 @@ text = input (" Type your message : \n")
 shift = int (input(" Type the shift number : \n"))
 
 def encrypt (plain_text, shift_amount) :
-    cipher_text = " "
+    cipher_text = ""
     for letter in plain_text :
         position = alphabet.index(letter)
         new_position = position + shift_amount
